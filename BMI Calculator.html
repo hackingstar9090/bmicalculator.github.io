@@ -1,0 +1,327 @@
+
+<html>
+<title>BMI Calculator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.div1 {
+  width: 1000px;
+  height: 360px;  
+  padding: 50px;
+  border: 1px solid white;
+}
+
+.div2 {
+  width: 800px;
+  height: 330px;  
+  padding: 50px;
+  border: 1px solid white;
+}
+</style>
+<body class="w3-black">
+
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <img src="images/images.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>BMI CALCULATOR</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT US</p>
+</a>
+ <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT US</p>
+</a>
+</nav>
+
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">BMI CALCULATOR</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">ABOUT US</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT US</a>
+  </div>
+</div>
+
+
+<div class="w3-padding-large" id="main">
+
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Body Mass Index (BMI)<H1><br>
+	<hr>
+	 
+  </header>
+
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">What is BMI?<h2>
+    <hr style="width:200px" class="w3-opacity">
+	
+    <p>The BMI is calculated by dividing a person's weight in kilogrammes by the square of their height in metres. A high BMI indicates a high level of body fatness. BMI dBMI considers natural differences in body shape to determine a healthy weight range for a given height. When determining if you're a healthy weight, healthcare providers may consider other indicators in addition to your BMI. Because muscle is substantially denser than fat, people who are extremely muscular, such as heavyweight boxers, weight trainers, and sportsmen, may be at a healthy weight while having an obese BMI. Your ethnic background can also influence your chance of developing certain diseases. Adults of South Asian heritage, for example, with a BMI of 23, which is generally considered healthy, may have a higher risk of some health concerns, such as diabetes. If you're pregnant, you shouldn't use BMI as a metric.etects weight categories that may cause health concerns, however it does not diagnose an individual's body fatness or health. If you're worried about your weight, talk to your midwife or doctor.
+    </p>
+		<center>
+	<img src="images/formula.png" style="width:30%">
+</center>
+<br><br>
+ <h2 class="w3-text-light-grey">Accuracy of BMI<h2>
+ <hr style="width:250px" class="w3-opacity">
+<p>BMI takes into account natural variations in body shape, giving a healthy weight range for a particular height.
+
+As well as measuring your BMI, healthcare professionals may take other factors into account when assessing if you're a healthy weight.
+
+Muscle is much denser than fat, so very muscular people, such as heavyweight boxers, weight trainers and athletes, may be a healthy weight even though their BMI is classed as obese.
+
+Your ethnic group can also affect your risk of some health conditions. For example, adults of South Asian origin may have a higher risk of some health problems, such as diabetes, with a BMI of 23, which is usually considered healthy.
+
+You should not use BMI as a measure if you're pregnant. Get advice from your midwife or GP if you're concerned about your weight.</p><br>
+	<center>
+	
+	 <img src="images/bmi.jpeg" style="width:100%">
+    <p>Standard Adult BMI Categories.</p><br><br>
+	<img src="images/nomogram.jpeg" style="width:100%">
+	  <p>BMI Nomogram for Typical Adult.</p><br><br>
+	</center>
+	
+	<br>
+	 <h2 class="w3-text-light-grey">Risks associated with being overweight<h2>
+ <hr style="width:600px" class="w3-opacity"> <br>
+	<a>Being overweight increases the risk of a number of serious diseases and health conditions. Below is a list of said risks, according to the Centers for Disease Control and Prevention (CDC): <br> <br>
+
+1. High blood pressure<br>
+2. Higher levels of LDL cholesterol, which is widely considered "bad cholesterol," lower levels of HDL cholesterol, considered to be good cholesterol in moderation, and high levels of triglycerides<br>
+3. Type II diabetes<br>
+4. Coronary heart disease<br>
+5. Stroke<br>
+6. Gallbladder disease<br>
+7. Osteoarthritis, a type of joint disease caused by breakdown of joint cartilage<br>
+8. Sleep apnea and breathing problems<br>
+9. Certain cancers (endometrial, breast, colon, kidney, gallbladder, liver)<br>
+10. Low quality of life<br>
+11. Mental illnesses such as clinical depression, anxiety, and others<br>
+12. Body pains and difficulty with certain physical functions<br><br>
+Generally, an increased risk of mortality compared to those with a healthy BMI
+As can be seen from the list above, there are numerous negative, in some cases fatal, outcomes that may result from being overweight. Generally, a person should try to maintain a BMI below 25 kg/m2, but ideally should consult their doctor to determine whether or not they need to make any changes to their lifestyle in order to be healthier.</a><br><br>
+    	<br>
+		 <h2 class="w3-text-light-grey">Risks associated with being underweight<h2>
+ <hr style="width:600px" class="w3-opacity"><br>
+ <a>Being underweight has its own associated risks, listed below:<br><br>
+
+1. Malnutrition, vitamin deficiencies, anemia (lowered ability to carry blood vessels)<br>
+2. Osteoporosis, a disease that causes bone weakness, increasing the risk of breaking a bone<br>
+3. A decrease in immune function<br>
+4. Growth and development issues, particularly in children and teenagers<br>
+5. Possible reproductive issues for women due to hormonal imbalances that can disrupt the menstrual cycle. Underweight women also have a higher chance of miscarriage in the first trimester<br>
+6. Potential complications as a result of surgery<br><br>
+Generally, an increased risk of mortality compared to those with a healthy BMI
+In some cases, being underweight can be a sign of some underlying condition or disease such as anorexia nervosa, which has its own risks. Consult your doctor if you think you or someone you know is underweight, particularly if the reason for being underweight does not seem obvious.</a><br>
+		<br><br><br>
+		<center>
+<iframe width="900" height="650" src="https://www.youtube.com/embed/LeG45M4XTjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Body Mass Index (BMI) Explained.</p><br><br>
+	   	</center>
+      </div>
+    </div>
+
+<hr>
+ 
+  
+
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">BMI CALCULATOR<h2>
+    <hr style="width:200px" class="w3-opacity">
+	<br>	<br>
+	<div class="div1">
+    <label>Please Enter Height (m) :
+                  <input id="height" type="number">
+              </label><br><br>
+              <label>Please Enter Weight (kg):
+                  <input id="weight" type="number">
+              </label><br><br>
+			   <center>
+			     <button type="submit" onclick="return getCalc()"><b>Calculate</b></button>
+			   </center>
+             
+     </div>
+         	<br>
+         <center>
+		<div class="div2">
+		<p>Your BMI is : <span id="result"> ?</span> </p> 
+		<p>Your BMI Category is : <span id="category"> ?</span> </p> 
+		<p>BMI Health Risk : <span id="risk"> ?</span> </p> 
+            
+			   </div>
+       </center>
+   
+   
+
+  </div>
+<hr>
+ 
+
+ <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">ABOUT US</h2>
+    <hr style="width:160px" class="w3-opacity">
+		<br>
+		
+		<a>We are a group from the RCS2514A class who created a bmi calculator that can help users to measure their bmi more easily without counting manually. Our BMI is a measurement that is a ratio of your weight and height. It’s a good way to gauge whether your weight is in healthy proportion to your height. In fact, knowing your BMI can help you – and your GP – determine any health risks you may face if it’s outside of the healthy range. This BMI Calculator has been built by three of us, namely Amir, Wan and Fikri</a><br>
+		<br>
+	<div class="row">
+  <div class="column">
+    <img src="images/amir.png" style="width:50%">
+	<BR>
+
+    <br><a>WEB DEVELOPER<a><BR>
+		<br><a>AMIR IMRAN BIN AHMAD<a><BR>
+	<a>(2021156265)<a>
+
+  </div>
+  <div class="column">
+       <img src="images/fikri.png" style="width:50%">
+	<BR>
+
+    	<br><a>WEB DEVELOPER<a><BR>
+		<br><a>MUHAMMAD FIKRI BIN MOHD FIRDAUS<a><BR>
+	<a>(2021125547)<a>
+	
+  </div>
+  <div class="column">
+       <img src="images/wan.png" style="width:50%">
+	<BR>
+
+    	<br><a>WEB DEVELOPER<a><BR>
+		<br><a>WAN MUHAMMAD RAHIMI BIN WAN FADZLI<a><BR>
+	<a>(2021102951)<a>
+
+  </div>
+  
+</div>
+	
+</div>
+<hr>
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">CONTACT US</h2>
+    <hr style="width:180px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Universiti Teknologi Mara(UiTM) Arau,Perlis</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 01129540538 / 0135356009 / 01164106995</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: bmicalculator@Gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+   
+
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Amir Imran, Wan Rahimi, Muhammad Fikri</a></p>
+
+  </footer>
+
+
+</div>
+
+</body>
+</html>
+
+
+
+<body>
+<center>
+  <section>
+  
+    
+	        <script lang="Javascript">
+            function getCalc()
+            {
+                var height = document.getElementById('height').value;
+                var weight = document.getElementById('weight').value;
+                var result = document.getElementById('result');
+                var bmi;
+    
+                bmi = (weight/(height*height)).toFixed(1);
+    
+                result.textContent = bmi;
+    
+                if(bmi < 18.5){
+                    category = "Underweight";
+                    risk = "Malnutrition Risk";
+               
+                }
+                else if(bmi >= 18.5 && bmi<= 24.9){
+                    category = "Normal Weight";
+                    risk = "Low Risk";
+             
+                }
+                else if(bmi >= 25 && bmi<= 29.9){
+                    category = "Overweight";
+                    risk = "Enhanced Risk";
+             
+                }
+                else if(bmi >= 30 && bmi<= 34.9){
+                    category = "Moderately Obese";
+                    risk = "Medium Risk";
+                
+                }
+                else if(bmi >= 35 && bmi<= 39.9){
+                    category = "Severely Obese";
+                    risk = "Malnutrition Risk";
+              
+                }
+                else if(bmi >= 40){
+                    category = "Very Severely Obese";
+                    risk = "Very High Risk";
+                 
+                }
+                document.getElementById("category").textContent = category;
+                document.getElementById("risk").textContent = risk;
+            }
+        </script>
+
+        </section>
+		</center>
+		</body>
+		</html>
